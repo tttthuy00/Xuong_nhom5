@@ -5,6 +5,7 @@ const Hello = () => {
   return (
     <View>
       <Text style={styles.text1}>Hello</Text>
+      <Text style={styles.text1}>Hello</Text>
     </View>
   )
 }
