@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { Pressable, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
 const Hello = () => {
@@ -8,6 +8,9 @@ const Hello = () => {
       <Text style={styles.text1}>Hello</Text>
       <Text style={styles.text1}>Hello</Text>
 
+      <Pressable>
+        <Text> thử lần 1</Text>
+      </Pressable>
     </View>
   )
 }
